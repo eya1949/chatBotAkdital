@@ -1,13 +1,13 @@
 import React from "react";
+import { IoCloseOutline } from "react-icons/io5";
+import Input from "./components/Input";
+import Toggle from "./components/Toggle";
 import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <div className="bg-black-squeeze w-64 h-96 flex flex-row rounded-xl fixed bottom-9 right-9 m-4 ">
-      
-      <Nav/>
-   
-    </div>
-    
+    <>
+    <Nav/>
+    </>
   );
 }
